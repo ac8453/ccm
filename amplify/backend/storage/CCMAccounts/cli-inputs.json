@@ -1,0 +1,10 @@
+{
+  "resourceName": "CCMAccounts",
+  "tableName": "CCMAccounts",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

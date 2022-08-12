@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "custom"
+  ],
+  "parentResource": "cloudcapacitymanager5100b3b8",
+  "functionName": "cloudcapacitymanager5100b3b8PostConfirmation",
+  "resourceName": "cloudcapacitymanager5100b3b8PostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerDir": "C:\\snapshot\\repo\\build\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "cloudcapacitymanager5100b3b8PostConfirmation",
+  "skipEdit": true,
+  "enableCors": false
+}

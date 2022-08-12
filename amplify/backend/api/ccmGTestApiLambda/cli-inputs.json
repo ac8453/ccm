@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "paths": {
+    "/portfolios": {
+      "name": "/portfolios",
+      "lambdaFunction": "ccmTestFunctionLambda",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/appuser": {
+      "name": "/appuser",
+      "lambdaFunction": "CCMAccountsUsers",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/appuser/accId": {
+      "name": "/appuser/accId",
+      "lambdaFunction": "CCMAccountsUsers",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/listusers/org": {
+      "name": "/listusers/org",
+      "lambdaFunction": "ccmFunctionListUsers",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/listusers/iam": {
+      "name": "/listusers/iam",
+      "lambdaFunction": "ccmFunctionListUsers",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/products/list": {
+      "name": "/products/list",
+      "lambdaFunction": "ccmTestFunctionLambda",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/products/all": {
+      "name": "/products/all",
+      "lambdaFunction": "ccmTestFunctionLambda",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/getsignedurl": {
+      "name": "/getsignedurl",
+      "lambdaFunction": "getSignedUrl",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

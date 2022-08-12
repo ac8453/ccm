@@ -1,0 +1,12 @@
+{
+  "resourceName": "CcmContentBucket",
+  "policyUUID": "f7ae54a4",
+  "bucketName": "cloudcapacitymanagerfc07548e99a644038a003b0d566",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "groupAccess": {}
+}
